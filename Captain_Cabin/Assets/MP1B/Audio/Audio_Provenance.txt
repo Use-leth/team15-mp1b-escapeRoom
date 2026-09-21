@@ -1,0 +1,12 @@
+MP1b puzzle cues — original procedural audio, generated 2026-09-19.
+No samples, recordings, downloads, or third-party audio were used.
+Generation: additive sine synthesis with short attack, exponential decay, and soft release; PCM16 mono WAV.
+PuzzleFailure: two rounded descending tones (A3 to D3), 15ms leading and 30ms trailing silence.
+BellSuccess: rising C5, E5, G5, C6 arpeggio with overlapping major harmony, 15ms leading and 35ms trailing silence.
+Peak-normalized with ample headroom. Runtime source volume should be tuned against scene audio.
+
+PuzzleFailure.wav: duration=0.550s; PCM16 mono 44100Hz; peak=0.580004 (-4.73dBFS); RMS=0.160487 (-15.89dBFS); clipped samples=0; frames=24255
+BellSuccess.wav: duration=1.000s; PCM16 mono 44100Hz; peak=0.680013 (-3.35dBFS); RMS=0.170444 (-15.37dBFS); clipped samples=0; frames=44100
+
+DoorUnlock: original procedural mechanical key-turn / latch-release cue, generated 2026-09-19. Deterministic seeded noise transients, inharmonic metal resonances, light cylinder friction, and a damped low latch recoil; no external audio or samples. Short attacks, decaying resonances, 4ms boundary fade-in and 80ms tail fade; normalized to 0.70 peak before PCM16 quantization.
+DoorUnlock.wav: duration=0.860s; PCM16 mono 44100Hz; peak=0.699982 (-3.10dBFS); RMS=0.051842 (-25.71dBFS); clipped samples=0; frames=37926
