@@ -5,13 +5,16 @@ TagManager:
   serializedVersion: 3
   tags:
   - PlayerHand
+  - Key1
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Key1
   - Water
   - UI
+  - Key2
+  - Key3
   - MirrorOnly
   - hidden
   - 
